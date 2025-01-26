@@ -5,7 +5,7 @@ public class RemoveDuplicate {
 
     public static void main(String[] args) {
 
-        String str = "Pizza";
+        String str = "Pizza112233";
         StringBuilder newString = new StringBuilder();
 
         Set<Character> track = new HashSet<>();

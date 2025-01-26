@@ -2,7 +2,7 @@ public class MaxOccuranceAndSecondMaxChar {
 
     public static void main(String[] args) {
 
-        String str = "This is Hound";
+        String str = "This is Hound 112233";
 
         int[] track = new int[256];
         char secondMaxChar = ' ';
@@ -25,6 +25,15 @@ public class MaxOccuranceAndSecondMaxChar {
             }
 
         }
+
+        for (int i : track) {
+            if (i == maxCount) {
+
+                char c = (char) i;
+                System.out.println(c);
+            }
+        }
+
         System.out.println("============================================================");
 
         System.out.println("\n Max Character " + maxChar + "\t Max Count: " + maxCount + "\t \n Second Max Char is: "
