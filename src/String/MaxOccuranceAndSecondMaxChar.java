@@ -1,3 +1,5 @@
+package String;
+
 public class MaxOccuranceAndSecondMaxChar {
 
     public static void main(String[] args) {

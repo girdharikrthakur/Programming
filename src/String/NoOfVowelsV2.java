@@ -1,3 +1,5 @@
+package String;
+
 import java.util.Scanner;
 
 public class NoOfVowelsV2 {
@@ -11,7 +13,7 @@ public class NoOfVowelsV2 {
         for (int i = 0; i < input.length(); i++) {
             for (int j = 0; j < vowels.length; j++) {
                 if (inputArray[i] == vowels[j]) {
-                    System.out.println("Vowels Vowels in the String are: " + inputArray[i] + " And Index is: " + i);
+                    System.out.println("Vowels Vowels in the String are: " + inputArray[i] + " at Index: " + i);
                 }
             }
         }

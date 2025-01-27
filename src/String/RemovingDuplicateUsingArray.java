@@ -1,3 +1,5 @@
+package String;
+
 public class RemovingDuplicateUsingArray {
 
     public static void main(String[] args) {
